@@ -1,0 +1,75 @@
+.table-div {
+    position: relative;
+    width: 500px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: default;
+    // background: #f7f7f7;
+}
+
+.table-div table {
+    margin: 0px 10px;
+    width: 500px;
+    text-align: center;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.table-div td {
+    padding: 5px 0;
+}
+
+.table-div th {
+    padding: 5px 0;
+}
+
+.table-background-div {
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    background: #999;
+    z-index: -1;
+}
+
+.thead {
+    background: #999;
+    color: #fcfcfc;
+    font-size: 16px;
+    height: 35px;
+    text-align: center;
+    border-left: 10px solid #999;
+    border-right: 10px solid #999;
+}
+
+.tbody {
+    background: #f7f7f7;
+    border-left: 10px solid #f7f7f7;
+    border-right: 10px solid #f7f7f7;
+}
+
+.table-body-div {
+    position: relative;
+    overflow: hidden;
+    width: 105%;
+}
+
+.table-scroll {
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 17px;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+}
+
+.tbody-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 0 15px;
+}
+
+.tbody-check {
+    margin: 0px;
+}

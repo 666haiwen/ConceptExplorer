@@ -1,0 +1,75 @@
+.drift-div {
+  position: relative;
+  width: 1050px;
+  margin-top: 10px;
+}
+
+.drift-title-div {
+  position: relative;
+  display: flex;
+  padding: 0px;
+  text-align: left;
+  height: 15px;
+  line-height: 15px;
+}
+
+.drift-title-p {
+  position: relative;
+  width: 200px;
+  font-weight: bold;
+  left: 0px;
+}
+
+.drift-right-div {
+  position: absolute;
+  display: flex;
+  right: 0px;
+  width: 600px;
+}
+
+.drift-selected-information {
+  position: relative;
+  text-align: right;
+  margin-left: auto;
+  font-size: 12px;
+}
+
+.drift-legend-div {
+  position: relative;
+  right: 0px;
+  width: 200px;
+  text-align: right;
+  margin-left: auto;
+}
+
+.drift-selected-batch {
+  position: relative;
+  font-size: 12px;
+  text-align: right;
+  margin-left: auto;
+}
+
+.drift-detector-div {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  margin: 0px 0 2px 0;
+}
+
+.drift-detector-svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.drift-datanum-svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.drift-detector-svg path{
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1px;
+}

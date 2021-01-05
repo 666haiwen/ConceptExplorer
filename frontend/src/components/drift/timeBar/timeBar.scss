@@ -1,0 +1,53 @@
+.timeBar-div {
+  position: relative;
+    top: 0px;
+    margin-left: 0px;
+    width: 1050px;
+    height: 90px;
+}
+
+.drift-div {
+  position: relative;
+  top: 0px;
+  margin: 0px;
+  width: 1050px;
+}
+
+.time-svg {
+  width: 1050px;
+  height: 20px;
+}
+
+.brush-svg {
+  width: 1050px;
+  height: 60px;
+}
+
+.control-div {
+  position: absolute;
+  top: -40px;
+  height: 40px;
+  left: 1050px;
+  width: 380px;
+  font-size: 16px;
+  line-height: 20px;
+  border-right: 2px dotted #888;
+  span {
+    margin: 0 5px;
+  }
+}
+
+.control-upper {
+  position: relative;
+  display: flex;
+  height: 20px;
+  width: 100%
+}
+
+.simulation-time-div {
+  width: 15px;
+  height: 15px;
+  border: 2px solid;
+  margin: 0px 5px;
+  cursor: pointer;
+}

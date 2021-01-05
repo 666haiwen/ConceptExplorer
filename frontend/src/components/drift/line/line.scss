@@ -1,0 +1,96 @@
+.line-div {
+  position: relative;
+  visibility: hidden;
+  width: 1590px;
+  height: 100%;
+  margin-bottom: 7px;
+  color: #212121;
+}
+
+.line-svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.utils-div {
+  position: absolute;
+  display: flex;
+  top: -30px;
+  right: 0px;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.utils-div span{
+  margin: 0 5px;
+}
+
+.legend-div {
+  position: relative;
+  display: flex;
+  height: 100%;
+  margin: 0px 5px;
+  border-right: 2px dotted #888;
+}
+
+.legend-icon-svg {
+  position: relative;
+  height: 100%;
+  width: 40px;
+}
+
+.control-div {
+  position: relative;
+  display: flex;
+  width: 610px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.control-left {
+  width: 450px;
+}
+
+.control-upper {
+  position: relative;
+  display: flex;
+  height: 20px;
+  width: 100%
+}
+
+.simulation-time-div {
+  width: 15px;
+  height: 15px;
+  border: 2px solid;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+.control-right {
+  width: 250px;
+}
+
+.scale-select {
+  width: 120px;
+  height: 20px;
+  margin: 0 5px;
+  font-size: 16px;
+  background: #f7f7f7;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.g text {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  fill: #212121;
+}
+
+.tick text {
+  font-size: 10px;
+  text-align: center;
+  fill: #212121;
+}

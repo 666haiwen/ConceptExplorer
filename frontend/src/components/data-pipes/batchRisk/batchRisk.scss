@@ -1,0 +1,49 @@
+  .batch-risk-div {
+    position: relative;
+    display: inline-block;
+    width: 415px;
+    height: 100%;
+  }
+
+  .legend-div {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 14px;
+  }
+  
+  .batch-selected-information {
+    position: absolute;
+    top: 30px;
+    font-size: 12px;
+    right: 30px;
+  }
+  
+  .batch-risk-svg {
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .batch-risk-div span {
+    margin: 0 5px;
+  }
+
+  .g text {
+    text-anchor: middle;
+    font-size: 12px;
+    font-weight: bold;
+    fill: #212121;
+  }
+  
+  .tick text {
+    font-size: 12px;
+    text-align: center;
+    fill: #212121;
+  }
+
+  .batch-brush text {
+    fill: #222;
+    font-size: 14px;
+    text-anchor: middle;
+  }

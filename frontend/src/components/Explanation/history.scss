@@ -1,0 +1,78 @@
+.history-container {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+}
+
+.up-btn {
+    position: relative;
+    width: 0px;
+    height: 0px;
+    margin: 10px 60px;
+    border-bottom: 10px solid #ddd;
+    border-left: 40px solid white;
+    border-right: 40px solid white;
+    cursor: pointer;
+}
+
+.up-btn:hover {
+    border-bottom: 10px solid #777;
+    border-left: 40px solid white;
+    border-right: 40px solid white;
+}
+
+.down-btn {
+    position: relative;
+    width: 0px;
+    height: 0px;
+    margin: 10px 60px;
+    border-top: 10px solid #ddd;
+    border-left: 40px solid white;
+    border-right: 40px solid white;
+    cursor: pointer;
+}
+
+.down-btn:hover {
+    border-top: 10px solid #777;
+    border-left: 40px solid white;
+    border-right: 40px solid white;
+}
+
+.screen-shot-div {
+    position: relative;
+    width: 160px;
+    height: 120px;
+    margin: 15px 20px;
+}
+
+.screen-shot-container {
+    position: relative;
+    display: flex;
+    width: 160px;
+    height: 80px;
+    border: solid 1px #777;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.screen-shot-information {
+    position: relative;
+    font-size: 12px;
+    text-align: left;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+.screen-shot-name {
+    position: relative;
+    border: none;
+    background: #777a;
+    width: 100%;
+    font-size: 16px;
+    height: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}

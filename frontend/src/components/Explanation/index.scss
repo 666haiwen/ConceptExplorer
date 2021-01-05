@@ -1,0 +1,224 @@
+.explanation-div {
+    position: relative;
+    width: 825px;
+    height: 655px;
+    margin-left: 10px;
+}
+
+.explanation-container {
+    position: relative;
+    border:  #777 dotted 2px;
+    height: 615px;
+    width: 825px;
+}
+
+.title-div {
+    position: relative;
+}
+
+.main-div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 625px;
+    height: 100%;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 550;
+}
+
+.side-border-div {
+    position: absolute;
+    top: 3%;
+    right: 200px;
+    width: 0;
+    height: 94%;
+    border-left: #777 dotted 2px;
+}
+
+.side-div {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 200px;
+    background: #ffffff00;
+    font-size: 16px;
+}
+
+.side-div span {
+    margin: 0 5px;
+}
+
+.datasource-attribute-div {
+    position: relative;
+    margin: 10px;
+    height: 110px;
+    border-bottom: #777 dotted 2px;
+}
+
+.legend-div{
+    position: relative;
+    margin: 0 10px;
+    height: 110px;
+}
+
+.concept-collection-div {
+    position: relative;
+    margin: 0 -1px;
+    width: 100%;
+    padding: 0 1px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #777a;
+    color: #fff;
+    font-weight: bold;
+}
+
+.history-div {
+    position: relative;
+    top: 5px;
+    width: 100%;
+}
+
+.top-space {
+    position: relative;
+    display: flex;
+    height: 30px;
+    margin: 0 10px;
+    line-height: 30px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.label-div {
+    width: 450px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.top-div {
+    text-align: right;
+    width: 150px;
+}
+
+.bottom-div {
+    position: relative;
+    margin: 0 10px;
+    height: 30px;
+    text-align: left;
+}
+
+.bottom-div input {
+    border: none;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 550;
+}
+
+.bottom-div button {
+    font-size: 18px;
+    border-radius: 8px;
+    margin: 0 0 0 20px;
+}
+
+.multiselect {
+    width: 170px;
+}
+  
+.selectBox {
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    height: 25px;
+    margin-top: 5px;
+    line-height: 25px;
+    background: #f7f7f7;
+}
+
+.checkboxes {
+    position: relative;
+    width: 100%;
+    top: 0px;
+    background: rgb(254, 254, 254);
+    display: none;
+    z-index: 999;
+    border: 1px solid rgb(218, 218, 218);
+}
+
+.multiselect label {
+    position: relative;
+    display: block;
+    margin: 0 10px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.multiselect input {
+    width: 15px;
+    height: 15px;
+}
+
+.multiselect hr{
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 5px 5%;
+    color: #987cb9;
+    stroke: 1px;
+}
+
+.grayscale-legend-div {
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.grayscale-legend {
+    position: relative;
+    top: 4px;
+    width: 60px;
+    height: 15px;
+}
+
+.record-legend-div {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    line-height: 20px;
+}
+
+.record-min-div {
+    position: relative;
+    top: 3px;
+    width: 10px;
+    height: 10px;
+    margin: 0 10px 0 0;
+    background: #eee;
+    border: solid 2px #eee;
+}
+
+.record-middle-div {
+    position: relative;
+    top: 3px;
+    width: 10px;
+    height: 10px;
+    margin: 0 10px 0 0;
+    background: #fff;
+    border: dotted 2px #444;
+}
+
+.record-max-div {
+    position: relative;
+    top: 3px;
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    background: #fff;
+    border: solid 2px #444;
+}

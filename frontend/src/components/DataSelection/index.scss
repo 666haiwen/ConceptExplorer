@@ -1,0 +1,80 @@
+.data-selection-div {
+    position: relative;
+    width: 560px;
+    height: 655px;
+}
+
+.data-selection-container {
+    position: relative;
+    height: 595px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.data-selection-scroll {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    // overflow-y: scroll;
+    padding-right: 15px;
+    box-sizing: content-box;
+    font-size: 18px;
+    font-weight: 550;
+    color: #333;
+}
+
+.data-selection-div span {
+    margin: 0 7px;
+}
+
+.title-div {
+    position: relative;
+    left: -7px;
+    padding: 0 20px;
+    width: 530px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 26px;
+    background: #777;
+    color: #fcfcfc;
+}
+
+.title-right-div {
+    position: absolute;
+    top: 0px;
+    right: -1px;
+    border-top: 40px solid #777;
+    border-right: 45px solid #ffffff;
+    border-bottom: 3px solid #ffff;
+}
+
+.selection-div {
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px;
+}
+
+.span-div {
+    height: 40px;
+    line-height: 40px;
+    margin: 10px;
+}
+
+.datasource-div {
+    position: relative;
+    margin: 10px;
+}
+
+.attribute-div {
+    position: relative;
+    margin: 10px;
+}
+
+.segment-div {
+    position: relative;
+    height: 0;
+    border-bottom: #777 dotted 2px;
+    margin: 0 35px 0px 20px;
+}
+

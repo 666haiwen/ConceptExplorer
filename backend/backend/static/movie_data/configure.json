@@ -1,0 +1,21 @@
+{
+    "timeStart": 1362326400,
+    "timeEnd": 1427731200,
+    "timeUnit": 86400,
+    "dataNumMax": 5841,
+    "warningLevelMax": 3.0689,
+    "warningLevel": [
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            10000
+        ]
+    ]
+}
